@@ -233,14 +233,14 @@ User data are stored when signing up to the application. Update and Delete metho
 
 ## 3. Chat Data:
 
-- `senderId`(String)
-- `receiverId`(String)
-- `message`(String)
-- `dateTime`(String)
-- `dateObj`(Date)
-- `conversionId`(String)
-- `conversionName`(String)
-- `conversionImage`(String)
+- `senderId`(String) - Unique identifier for the sender
+- `receiverId`(String) - Unique identifier for the receiver
+- `message`(String) - Message content
+- `dateTime`(String) - Date and time of the message
+- `dateObj`(Date) - Date object
+- `conversionId`(String) - Unique identifier for the conversion
+- `conversionName`(String) - Name of the conversion
+- `conversionImage`(String) - Profile picture of the conversion
 
 Chat data are stored when sending messages. Update and Delete methods are not integrated yet.
 
